@@ -1,0 +1,12 @@
+@keyframes loadingPage {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}/*# sourceMappingURL=animations.css.map */
+
+body{
+  animation: loadingPage  ease-in-out 1s ;
+}
